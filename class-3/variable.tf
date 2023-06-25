@@ -1,16 +1,16 @@
 variable region {
     type = string
     description = "enter region"
-    default = "us-east-1"
+    default = ""
 }
 variable "key-name" {
   type = string
-  default = "my-key"
+  default = ""
   description = "provide-key-pair-name"
 }
 
 variable "key_file" {
   type = string
   description = "provide key file description"
-  default = "~/.ssh/id_rsa.pub"
+  default = ""
 }
